@@ -25,7 +25,7 @@
         .moving-credits-container {
             position: relative;
             overflow: hidden;
-            height: 100px; /* Adjust to the height you want for the visible area */
+            height: 50%; /* Adjust to the height you want for the visible area */
            
         }
 
