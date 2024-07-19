@@ -22,13 +22,38 @@
         .col-full-height {
             height: 100%;
         }
-        .moving-credits-container h5 {
-            font-size: 34px; 
+        .moving-credits-container {
+            position: relative;
+            overflow: hidden;
+            height: 100px; /* Adjust to the height you want for the visible area */
+           
         }
 
-        .moving-credits-content li {
-            font-size: 28px;
+        .moving-credits {
+            position: absolute;
+            animation: moveCredits 10s linear infinite;
+            top: 100%;
+            font-size: 26px; /
         }
+
+        @keyframes moveCredits {
+            0% {
+                top: 100%;
+            }
+            100% {
+                top: -100%;
+            }
+        }
+
+        @keyframes moveCredits {
+            0% {
+                top: 100%;
+            }
+            100% {
+                top: -100%;
+            }
+        }
+
         footer {
             height: 7vh;
             background-color: #f8f9fa;
@@ -127,13 +152,13 @@
         <div class="col-md-4 col-full-height">
             <div class="row h-100">
                 <div class="col d-flex flex-column">
+                    <h2>Suku Bunga</h2>
                     <div class="moving-credits-container">
-                        <h5>Suku Bunga</h5>
-                        <ul class="moving-credits-content">
-                            <li>Deposito</li>
-                            <li>Tabungan</li>
-                            <li>Kredit</li>
-                        </ul>
+                        <div class="moving-credits">
+                            <p>Deposito</p>
+                            <p>Tabungan</p>
+                            <p>Kredit</p>
+                        </div>
                     </div>
                 </div>
             </div>
