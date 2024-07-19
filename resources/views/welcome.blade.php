@@ -158,6 +158,7 @@
                             <p>Deposito</p>
                             <p>Tabungan</p>
                             <p>Kredit</p>
+                            <p>LSP</p>
                         </div>
                     </div>
                 </div>
