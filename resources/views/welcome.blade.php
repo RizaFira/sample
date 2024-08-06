@@ -102,7 +102,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Ensures the video covers the entire container */
+        object-fit:contain; /* Ensures the video covers the entire container */
     }
     .carousel-item {
         position: relative;
